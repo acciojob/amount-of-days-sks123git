@@ -2,8 +2,8 @@
 function daysOfYear(year) {
 	let yr = parseInt(year);
 	if((yr%4==0 && yr%100!==0) || yr%400==0) {
-	    console.log(366)
+	    return 366;
 	} else {
-	    console.log(365)
+	    return 365;
 	}
 }
